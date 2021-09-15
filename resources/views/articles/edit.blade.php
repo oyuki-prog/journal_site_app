@@ -9,7 +9,7 @@
 
 </head>
 <body>
-    @if ($error->any())
+    @if ($errors->any())
         <div class="error">
             <p>
                 <b>{{ count($errors) }}件のエラーがあります。</b>
